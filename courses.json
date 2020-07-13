@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "5f0c8aaa4a9c290dcd71cf72"
+  },
+  "university": "USAL",
+  "name": "Computer Science",
+  "level": "Excellent"
+},{
+  "_id": {
+    "$oid": "5f0c8aaa4a9c290dcd71cf73"
+  },
+  "university": "USAL",
+  "name": "Electronics",
+  "level": "Intermediate"
+},{
+  "_id": {
+    "$oid": "5f0c8aaa4a9c290dcd71cf74"
+  },
+  "university": "USAL",
+  "name": "Communication",
+  "level": "Excellent"
+}]
