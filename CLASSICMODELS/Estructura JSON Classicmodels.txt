@@ -1,0 +1,83 @@
+customers: [{
+  "_id": <objectld>,
+  "customerNumber": <int>,
+  "customerName": <string>,
+  "contactLastName": <string>,
+  "phone": <string>,
+  "contactFirstName": <string>,
+  "addressLine2": <string>,
+  "addressLine1": <string>,
+  "city:" <string>,
+  "state": <string>,
+  "postalCode": <string>,
+  "salesRepEmployeeNumber": <int>,
+  "country": <string>,
+  "creditLimit": <decimal>,
+  "payments": [
+    {
+      "checkNumber": <string>,
+      "paymentDate": <date>,
+      "amount": <decimal>
+    }
+  ]
+}];
+
+offices: [{
+  "_id": <objectld>,
+  "officeCode": <int>,
+  "addressLine1": <string>,
+  "addressLine2": <string>,
+  "city": <string>,
+  "postalCode": <string>,
+  "country": <string>,
+  "territory": <string>,
+  "employees": [
+    {
+      "lastName": <string>,
+      "firstName": <string>,
+      "extension": <string>,
+      "email": <string>,
+      "jobTitle": <string>,
+      "reportsTo": <int>
+    }
+  ]
+}];
+
+orders: [{
+  "_id": <objectld>,
+  "orderNumber": <int>,
+  "customerNumber": <int>,
+  "orderDate": <date>,
+  "requiredDate": <date>,
+  "status": <string>,
+  "shippedDate": <date>,
+  "comments": <string>,
+  "ordendetails": [
+    {
+      "productCode": <string>,
+      "quantityOrdered": <int>,
+      "priceEach": <decimal>,
+      "orderLineNumber": <int>
+    }
+  ]
+}];
+
+productlines: [{
+  "_id": <objectld>,
+  "productLine": <string>,
+  "textDescription": <string>,
+  "htmlDescription": <string>,
+  "image": <BinData>,
+  "products": [
+    {
+      "productCode": <string>,
+      "productName": <string>,
+      "productScale": <string>,
+      "productVendor": <string>,
+      "productDescription": <string>,
+      "quantityInStock": <int>,
+      "buyPrice": <decimal>,
+      "MSRP": <decimal>
+    }
+  ]
+}];
