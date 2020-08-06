@@ -1,0 +1,13 @@
+[{
+    "schema_version": "1",
+    "numCompany": 1,
+    "numUser": 1,
+    "infoAd": [{
+        "title": "Hybrid applications development",
+        "description": "Hybrid applications development using GO",
+        "type": "applications development",
+        "address": "Quito",
+        "salary": 1200.00,
+        "contactNumber": "593947262940"
+    }]
+}]
